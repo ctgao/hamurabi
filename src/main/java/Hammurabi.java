@@ -59,7 +59,7 @@ public class Hammurabi {         // must save in a file named Hammurabi.java
 
 		// statements go after the declarations
 		// main gameplay loop
-		for(int year = 1; year < 10; year++){
+		for(int year = 1; year <= 10; year++){
 			String report = generateSummary(populationDecrease, harvested, harvestingAcres, plague, hungryRats);
 			printSummary(report, year, population, acres, grain, priceOfLand);
 
